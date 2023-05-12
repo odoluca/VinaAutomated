@@ -1,0 +1,26 @@
+REMARK  Name = 750
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  N_2
+REMARK    2  A    between atoms: CA_1  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1       0.734   0.787   0.008  0.00  0.00    +0.026 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1       1.901  -0.081  -0.009  0.00  0.00    +0.388 N 
+ATOM      3  H1  GLY A   1       2.747   0.487  -0.012  0.00  0.00    -0.089 HD
+ATOM      4  H2  GLY A   1       1.879  -0.663  -0.846  0.00  0.00    -0.089 HD
+ATOM      5  H3  GLY A   1       1.894  -0.676   0.819  0.00  0.00    -0.089 HD
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      6  OXT GLY A   1      -0.484  -1.293  -0.001  0.00  0.00    -0.253 OA
+ATOM      7  C   GLY A   1      -0.502  -0.069   0.012  0.00  0.00    +0.291 C 
+BRANCH   7   8
+ATOM      8  O   GLY A   1      -1.649   0.657  -0.010  0.00  0.00    -0.482 OA
+ATOM      9  H   GLY A   1      -1.611   1.593   0.001  0.00  0.00    +0.295 HD
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 3

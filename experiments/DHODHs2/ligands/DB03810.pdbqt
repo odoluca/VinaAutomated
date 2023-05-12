@@ -1,0 +1,45 @@
+REMARK  Name = 11412540
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_1  and  C_10
+REMARK    4  A    between atoms: C_7  and  O_8
+REMARK    5  A    between atoms: C_10  and  C_12
+REMARK    6  A    between atoms: C_12  and  C_14
+REMARK    7  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK     1      -0.672   0.158   0.438  0.00  0.00    +0.036 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNK     1      -0.710  -0.677   1.644  0.00  0.00    +0.389 N 
+ATOM      3  H   UNK     1       0.240  -0.940   1.905  0.00  0.00    -0.088 HD
+ATOM      4  H   UNK     1      -1.257  -1.518   1.458  0.00  0.00    -0.088 HD
+ATOM      5  H   UNK     1      -1.140  -0.153   2.407  0.00  0.00    -0.088 HD
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      6  O   UNK     1      -3.099   0.072   0.688  0.00  0.00    -0.253 OA
+ATOM      7  C   UNK     1      -2.114   0.512   0.107  0.00  0.00    +0.293 C 
+BRANCH   7   8
+ATOM      8  O   UNK     1      -2.207   1.380  -0.933  0.00  0.00    -0.482 OA
+ATOM      9  H   UNK     1      -1.430   1.694  -1.352  0.00  0.00    +0.295 HD
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   1  10
+ATOM     10  C   UNK     1       0.063  -0.571  -0.716  0.00  0.00    +0.002 C 
+ATOM     11  C   UNK     1      -0.639  -1.865  -1.156  0.00  0.00    -0.001 C 
+BRANCH  10  12
+ATOM     12  C   UNK     1       1.536  -0.885  -0.383  0.00  0.00    +0.108 C 
+BRANCH  12  14
+ATOM     13  O   UNK     1       2.152   1.469  -0.485  0.00  0.00    -0.250 OA
+ATOM     14  C   UNK     1       2.353   0.344  -0.049  0.00  0.00    +0.314 C 
+BRANCH  14  15
+ATOM     15  O   UNK     1       3.337   0.063   0.844  0.00  0.00    -0.480 OA
+ATOM     16  H   UNK     1       3.454  -0.815   1.151  0.00  0.00    +0.295 HD
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH  10  12
+ENDBRANCH   1  10
+TORSDOF 7

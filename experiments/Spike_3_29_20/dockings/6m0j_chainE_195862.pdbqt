@@ -1,0 +1,648 @@
+MODEL 1
+REMARK VINA RESULT:      -6.3      0.000      0.000
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -35.175  20.866   2.527  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -36.592  22.321   3.651  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -36.277  21.394   2.667  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -37.506  22.687   3.679  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -37.477  21.057   1.792  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -37.033  20.477   0.459  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -40.321  21.347   2.113  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -38.250  22.263   1.610  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -39.625  22.306   1.788  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -37.781  23.089   1.348  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -40.186  23.708   1.581  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -41.032  23.773   0.320  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -39.907  26.241   2.969  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -39.077  24.624   1.515  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -39.033  25.819   2.219  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -37.750  26.573   1.989  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -38.312  24.391   0.942  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.633  22.771   4.633  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -36.034  22.095   6.920  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -35.574  21.819   5.818  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -34.975  20.630   5.563  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -34.084  20.491   5.816  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -35.963  24.190   5.117  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -34.842  25.171   4.874  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -34.345  25.939   5.927  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -34.301  25.308   3.595  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -33.309  26.845   5.701  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -33.265  26.214   3.370  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -32.769  26.983   4.423  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -31.758  27.867   4.203  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -31.713  28.660   4.699  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.0      2.311      4.424
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -35.618  22.848   1.425  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -36.724  22.200   3.360  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -36.565  22.298   1.985  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -37.519  21.738   3.712  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -37.683  21.594   1.228  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -38.960  21.557   2.052  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -36.560  20.725  -1.274  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -37.231  20.264   0.899  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -36.700  19.937  -0.341  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -37.302  19.558   1.582  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -36.257  18.481  -0.409  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -37.418  17.546  -0.107  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -33.421  18.884  -0.879  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -35.181  18.300   0.529  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -33.848  18.518   0.212  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -32.932  18.279   1.384  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -35.402  18.007   1.443  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.770  22.750   4.296  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -35.956  22.188   6.641  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -35.614  21.850   5.513  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -35.071  20.635   5.257  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -34.259  20.573   4.794  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -36.180  24.161   4.737  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -35.033  25.142   4.718  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -34.605  25.740   5.903  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -34.398  25.448   3.514  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -33.544  26.646   5.885  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -33.337  26.354   3.496  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -32.911  26.952   4.681  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -31.876  27.836   4.663  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -31.806  28.461   3.968  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.0      2.537      4.726
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -35.760  22.886   1.530  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -36.822  22.279   3.503  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -36.704  22.365   2.123  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -37.619  21.842   3.881  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -37.865  21.691   1.404  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -39.153  21.832   2.199  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -37.601  20.327  -1.115  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -37.520  20.304   1.204  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -37.416  19.731  -0.056  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -37.352  19.740   1.994  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -36.993  18.269   0.012  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -35.756  18.021  -0.836  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -37.372  15.418   0.404  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -38.102  17.465  -0.431  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -38.196  16.101  -0.196  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -39.468  15.511  -0.745  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -38.830  17.905  -0.925  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.825  22.805   4.405  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -35.882  22.223   6.751  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -35.626  21.886   5.600  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -35.148  20.654   5.298  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -35.218  20.327   4.423  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -36.202  24.214   4.884  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -35.052  25.189   4.811  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -34.533  25.747   5.979  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -34.507  25.532   3.573  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -33.470  26.648   5.910  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -33.444  26.432   3.504  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -32.926  26.990   4.673  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -31.889  27.869   4.605  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -31.565  28.148   3.771  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.9      4.009      8.901
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -32.603  26.563   4.084  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -34.510  27.841   3.741  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -33.185  27.647   4.105  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -34.885  28.750   3.793  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -32.500  28.950   4.494  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -32.458  29.914   3.320  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -31.412  29.509   7.098  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -31.172  28.633   4.963  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -30.735  28.944   6.243  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -30.550  28.178   4.349  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -29.313  28.458   6.496  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -28.517  29.492   7.276  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -27.510  26.281   5.837  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -28.705  28.182   5.221  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -27.850  27.111   4.999  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -27.377  27.040   3.572  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -28.905  28.783   4.467  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.361  26.764   3.291  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -37.014  26.469   1.550  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -36.315  27.236   2.204  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -36.341  28.577   2.012  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -36.594  28.926   1.180  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -36.154  26.161   4.459  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -35.882  24.690   4.659  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -36.273  23.768   3.689  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -35.237  24.253   5.817  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -36.020  22.409   3.875  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -34.985  22.894   6.003  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -35.376  21.972   5.032  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -35.130  20.646   5.214  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -34.396  20.372   5.729  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.9      3.128      7.220
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -34.194  26.161   0.774  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -35.499  27.323   2.303  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -34.483  27.201   1.365  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -35.652  28.201   2.721  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -33.782  28.527   1.103  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -33.100  28.524  -0.255  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -34.242  29.961   3.554  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -32.832  28.747   2.168  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -33.147  29.455   3.319  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -31.923  28.380   2.074  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -31.983  29.499   4.301  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -30.717  28.943   3.668  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -32.838  26.728   4.414  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -32.358  28.747   5.469  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -32.756  27.418   5.425  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -33.068  26.867   6.791  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -32.331  29.198   6.344  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -36.340  26.214   2.690  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -38.126  26.684   1.129  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -37.786  26.454   2.285  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -38.681  26.390   3.301  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -38.493  25.870   4.057  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -36.254  25.957   4.201  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -35.926  24.523   4.537  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -36.037  23.533   3.561  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -35.509  24.187   5.826  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -35.733  22.208   3.873  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -35.205  22.862   6.138  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -35.317  21.873   5.161  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -35.020  20.580   5.466  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -34.283  20.384   6.010  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.9      1.597      2.236
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -35.790  22.715   1.953  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -36.767  22.695   4.058  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -36.777  22.582   2.675  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -37.612  22.571   4.548  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -38.156  22.220   2.139  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -38.066  21.095   1.121  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -39.395  24.398   3.552  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -38.735  23.408   1.560  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -39.313  24.411   2.326  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -38.720  23.512   0.581  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -39.805  25.573   1.473  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -38.676  26.551   1.186  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -42.640  24.993   1.247  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -40.887  26.213   2.174  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -42.219  25.867   2.000  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -43.141  26.675   2.873  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -40.671  26.932   2.810  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.567  22.989   4.808  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -35.165  22.103   7.022  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -35.269  21.892   5.818  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -35.132  20.652   5.289  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -35.840  20.041   5.338  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -35.680  24.343   5.522  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -34.683  25.359   5.020  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -34.371  25.420   3.662  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -34.074  26.239   5.916  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -33.450  26.360   3.200  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -33.153  27.178   5.453  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -32.841  27.239   4.095  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -31.942  28.155   3.644  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -32.216  29.035   3.474  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.9      3.430      6.216
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -36.817  22.730  -0.893  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -36.579  21.594   1.118  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -37.022  22.637   0.317  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -36.796  21.612   2.078  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -37.848  23.650   1.099  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -38.410  24.721   0.179  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -38.627  24.400   3.765  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -37.002  24.223   2.119  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -37.469  24.554   3.383  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -36.053  24.386   1.909  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -36.363  25.095   4.279  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -35.109  25.395   3.473  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -35.444  22.365   3.924  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -36.105  24.119   5.305  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -35.666  22.830   5.038  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -35.451  22.026   6.293  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -36.248  24.379   6.244  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -35.812  20.485   0.600  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -37.156  19.386  -1.083  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -36.723  19.391   0.064  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -37.018  18.410   0.951  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -37.876  18.034   0.964  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -34.877  19.911   1.673  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -33.498  19.597   1.147  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -32.840  20.510   0.322  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -32.879  18.394   1.487  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -31.565  20.219  -0.163  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -31.604  18.103   1.002  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -30.948  19.016   0.177  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -29.703  18.733  -0.296  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -29.240  17.984   0.024  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.9      1.912      2.874
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -37.606  22.786   0.572  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -37.548  22.049   2.772  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -38.181  22.486   1.618  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -38.098  21.834   3.560  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -39.696  22.511   1.768  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -40.363  21.662   0.698  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -39.210  24.577   3.710  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -40.129  23.886   1.695  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -39.845  24.815   2.686  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -40.648  24.177   0.910  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -40.375  26.201   2.340  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -41.888  26.257   2.489  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -37.857  27.359   1.477  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -39.970  26.508   0.994  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -38.739  27.064   0.676  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -38.563  27.259  -0.807  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -40.598  26.314   0.261  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -36.114  21.898   2.866  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -34.533  20.198   2.190  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -35.686  20.487   2.491  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -36.677  19.564   2.521  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -37.143  19.403   3.318  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -35.613  22.241   4.276  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -35.080  23.648   4.385  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -34.566  24.291   3.259  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -35.101  24.308   5.615  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -34.074  25.592   3.361  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -34.609  25.609   5.717  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -34.095  26.251   4.590  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -33.615  27.520   4.691  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -33.921  28.184   4.105  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.8      3.442      8.045
+REMARK  Name = 195862
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_18
+REMARK    2  A    between atoms: C_3  and  CA_5
+REMARK    3  A    between atoms: CA_5  and  N_8
+REMARK    4  A    between atoms: C_9  and  CA_11
+REMARK    5  A    between atoms: CA_11  and  N_14
+REMARK    6  A    between atoms: CA_18  and  C_20
+REMARK    7  A    between atoms: CA_18  and  CB_23
+REMARK    8  A    between atoms: C_20  and  O_21
+REMARK    9  A    between atoms: CB_23  and  CG_24
+REMARK   10  A    between atoms: CZ_29  and  OH_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   ALA A   1     -33.508  26.127   1.224  0.00  0.00    -0.273 OA
+ATOM      2  N   ALA A   1     -34.885  27.107   2.816  0.00  0.00    -0.295 N 
+ATOM      3  C   ALA A   1     -33.701  26.963   2.106  0.00  0.00    +0.241 C 
+ATOM      4  H   ALA A   1     -34.939  27.809   3.504  0.00  0.00    +0.150 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA A   1     -32.661  28.000   2.508  0.00  0.00    +0.149 C 
+ATOM      6  CB  ALA A   1     -31.584  28.132   1.444  0.00  0.00    +0.031 C 
+BRANCH   5   8
+ATOM      7  O   ALA A   1     -32.769  29.469   4.979  0.00  0.00    -0.273 OA
+ATOM      8  N   ALA A   1     -32.100  27.601   3.777  0.00  0.00    -0.297 N 
+ATOM      9  C   ALA A   1     -32.203  28.380   4.921  0.00  0.00    +0.241 C 
+ATOM     10  H   ALA A   1     -31.625  26.740   3.834  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  ALA A   1     -31.569  27.706   6.132  0.00  0.00    +0.149 C 
+ATOM     12  CB  ALA A   1     -32.628  27.309   7.149  0.00  0.00    +0.031 C 
+BRANCH  11  14
+ATOM     13  O   UNK A   0     -28.706  27.322   6.410  0.00  0.00    -0.275 OA
+ATOM     14  N   ALA A   1     -30.615  28.622   6.700  0.00  0.00    -0.298 N 
+ATOM     15  C   UNK A   0     -29.258  28.350   6.791  0.00  0.00    +0.223 C 
+ATOM     16  C   UNK A   0     -28.483  29.487   7.403  0.00  0.00    +0.095 C 
+ATOM     17  H   ALA A   1     -30.942  29.486   7.041  0.00  0.00    +0.150 HD
+ENDBRANCH  11  14
+ENDBRANCH   9  11
+ENDBRANCH   5   8
+ENDBRANCH   3   5
+BRANCH   2  18
+ATOM     18  CA  ALA A   1     -36.039  26.270   2.585  0.00  0.00    +0.176 C 
+BRANCH  18  20
+ATOM     19  OXT ALA A   1     -38.003  26.414   1.182  0.00  0.00    -0.248 OA
+ATOM     20  C   ALA A   1     -37.085  26.994   1.751  0.00  0.00    +0.332 C 
+BRANCH  20  21
+ATOM     21  O   ALA A   1     -36.931  28.339   1.688  0.00  0.00    -0.479 OA
+ATOM     22  H   ALA A   1     -36.072  28.713   1.712  0.00  0.00    +0.295 HD
+ENDBRANCH  20  21
+ENDBRANCH  18  20
+BRANCH  18  23
+ATOM     23  CB  ALA A   1     -36.656  25.803   3.910  0.00  0.00    +0.057 C 
+BRANCH  23  24
+ATOM     24  CG  ALA A   1     -36.216  24.415   4.309  0.00  0.00    -0.020 C 
+ATOM     25  CD1 ALA A   1     -36.365  23.352   3.418  0.00  0.00    -0.001 C 
+ATOM     26  CD2 ALA A   1     -35.661  24.196   5.570  0.00  0.00    -0.001 C 
+ATOM     27  CE1 ALA A   1     -35.957  22.070   3.787  0.00  0.00    +0.036 C 
+ATOM     28  CE2 ALA A   1     -35.253  22.914   5.939  0.00  0.00    +0.036 C 
+ATOM     29  CZ  ALA A   1     -35.402  21.851   5.048  0.00  0.00    +0.134 C 
+BRANCH  29  30
+ATOM     30  OH  ALA A   1     -35.005  20.600   5.408  0.00  0.00    -0.506 OA
+ATOM     31  HH  ALA A   1     -34.454  20.481   6.157  0.00  0.00    +0.292 HD
+ENDBRANCH  29  30
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH   2  18
+TORSDOF 10
+ENDMDL

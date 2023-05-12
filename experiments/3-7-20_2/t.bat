@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\MGLTools-1.5.6\python.exe" "D:\Program Files (x86)\MGLTools-1.5.6\Lib\site-packages\AutoDockTools\Utilities24\prepare_receptor4.py" -r "C:\Users\doluc\PycharmProjects\VinaAutomated\experiments\structures\6gh0.pdb" -o "C:\Users\doluc\PycharmProjects\VinaAutomated\experiments\3-7-20_2\receptors\6gh0.pdbqt" -v
